@@ -2,7 +2,10 @@ import React from 'react'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+    <h1>Learn Te Reo with Whakataukī</h1>
+    <h2>E Hoa, kōwhiti tō Whakataukī!</h2>
+</>
   )
 }
 
