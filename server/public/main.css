@@ -16,14 +16,13 @@
 
 .home {
   background-image: url(images/whakarongo.png);
-  height: 500px; /* You must set a specified height */
+  height: 800px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
   order: 2;
   flex-grow: 2;
   margin: 10px;
-
 }
 
 .home h2 {
