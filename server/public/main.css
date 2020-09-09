@@ -16,11 +16,13 @@
 
 .home {
   background-image: url(images/whakarongo.png);
-  height: 800px; /* You must set a specified height */
-  background-position: center; /* Center the image */
+  height: 827px; /* You must set a specified height */
+  background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed;
   background-size: cover; 
-  order: 2;
+  background-color: rgb(218, 116, 146);
+  order: 3;
   flex-grow: 2;
   margin: 10px;
 }
