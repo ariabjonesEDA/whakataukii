@@ -1,10 +1,10 @@
 
-const environment = process.env.NODE_ENV || 'development'
-const config = require('./knexfile')[environment]
-const db = require('knex')(config)
+// const environment = process.env.NODE_ENV || 'development'
+// const config = require('./knexfile')[environment]
+// const db = require('knex')(config)
 
-module.exports = {
-//  call your functions here
-}
+// module.exports = {
+// //  call your functions here
+// }
 
-// Add functions here
+// // Add functions here
