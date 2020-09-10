@@ -9,7 +9,7 @@
   background-color: rgb(218, 116, 146);
   font-size: 5em;
   color: whitesmoke;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   order: 1;
   width: 100vw
 }
@@ -17,18 +17,38 @@
 .home {
   background-image: url(images/whakarongo.png);
   height: 827px; /* You must set a specified height */
-  background-position: center center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-attachment: fixed;
+  background-position: center; /* Center the image */
   background-size: cover; 
   background-color: rgb(218, 116, 146);
-  order: 3;
-  flex-grow: 2;
-  margin: 10px;
+  order: 2;
+  flex-grow: 1;
+  margin: 10px; */
 }
 
 .home h2 {
   color: whitesmoke
+}
+
+.display-cube-tahi {
+margin-top: 28%;
+margin-right: 5%;
+margin-left: 10%;
+
+}
+
+/* .display-cube-rua {
+  margin-top: 0;
+  margin-right: 95%;
+  margin-left: 90%;
+  
+  } */
+
+
+.img-wh {
+  size: 100%;
+  border-style: solid;
+  border-color:  rgb(218, 116, 146);
+
 }
 
 .instruction {
